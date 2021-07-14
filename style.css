@@ -117,7 +117,6 @@ Article :: Highlights Section
 
 article{
     display: flex;
-    /* background-color: tomato; */
 }
 .highlights{
     width: 50%;
@@ -151,3 +150,33 @@ aside{
 /* ---------\*
 Footer Styles
 \*----------*/
+
+footer{
+    width: 483.87px;
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+footer img{
+    margin-top: 30px;
+    padding: 0;
+    width: 483.87px;
+    height: 110px;
+}
+a{
+    text-decoration: none;
+}
+.fab{
+    color: #969BAB;
+    font-size: 32px;
+    align-self: center;
+    margin: 0 14px;
+}
+footer h5{
+    margin-top: 10px;
+    padding: 0;
+    font-size: 18px;
+}
