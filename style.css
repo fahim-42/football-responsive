@@ -1,0 +1,153 @@
+/* --------\*
+Font Family
+\*---------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ----------\*
+Common Styles
+\*-----------*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* -------\*
+Header Part 
+\*--------*/
+
+header{
+    height: 677px;
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-title, .banner{
+    width: 50%;
+}
+.header-title{
+    padding-left: 156px;
+}
+.header-title, h1{
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.live-button{
+    width: 168px;
+    height: 44px;
+    line-height: 24px;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    background: #E02C6D;
+}
+.banner img{
+    padding-right: 118px;
+    /* !!! check again */
+    width: 556.01px;
+    height: 438px;
+}
+
+/* ---------------\*
+Div :: all-players
+\*---------------*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 70px; */
+}
+.all-players, article{
+    width: 1050px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: space-between;
+}
+.player{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player  img{
+    margin: 15px;
+}
+.player-info{
+    width: 300px;
+    height: 154px;   
+    margin: 0 15px;
+}
+.player-info h2{
+
+    position: static;
+    width: 300px;
+    left: calc(50% - 300px/2);
+    top: 0%;
+    bottom: 74.03%;
+
+    margin: 0;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+}
+.player-info p{
+
+    position: static;
+    left: calc(50% - 300px/2);
+    top: 32.47%;
+    bottom: 0%; 
+    width: 300px;
+
+    margin: 0;
+    color: #6C6C6C;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* --------------------------\*
+Article :: Highlights Section
+\*---------------------------*/
+
+article{
+    display: flex;
+    /* background-color: tomato; */
+}
+.highlights{
+    width: 50%;
+    
+}
+aside{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.highlights h2{
+    margin: 0;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.highlights p{
+    width: 404px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+
+}
+.highlights img{
+    width: 567px;
+    height: 427px;
+}
+
+/* ---------\*
+Footer Styles
+\*----------*/
