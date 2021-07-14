@@ -35,7 +35,7 @@ header{
     font-size: 64px;
     color: #FFFFFF;
 }
-.live-button{
+.watch-button{
     width: 168px;
     height: 44px;
     line-height: 24px;
@@ -44,6 +44,25 @@ header{
     font-weight: 500;
     background: #E02C6D;
 }
+
+/*---------***---------\*
+Animation on Button Start
+\*---------***---------*/
+
+.watch-button:hover{
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+    background-color: orangered;
+    border: 2px solid black;
+    color: black;
+    transform: translate(30px, 10px) skew(-5deg);
+    transition: width 3s, height 2s, transform 1s ease-out 0.1s;
+}
+/*---------***---------\*
+Animation on Button End
+\*---------***---------*/
+
 .banner img{
     padding-right: 118px;
     /* !!! check again */
