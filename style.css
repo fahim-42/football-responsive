@@ -53,7 +53,7 @@ Animation on Button Start
     width: 180px;
     height: 60px;
     font-size: 25px;
-    background-color: orangered;
+    background-color: #ff005d;
     border: 2px solid black;
     color: black;
     transform: translate(30px, 10px) skew(-5deg);
